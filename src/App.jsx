@@ -37,7 +37,7 @@ function App() {
 
     return (
         <div className='header'>
-            <nav className="navbar navbar-expand-lg navbar-light ">
+            <nav className="navbar navbar-expand-lg navbar-light bg-dark sticky-top ">
                 <Link to="#home" className="navbar-brand text-light" style={{ cursor: "grab" }}>
                     DevBharat
                 </Link>
