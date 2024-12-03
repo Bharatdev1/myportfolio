@@ -8,7 +8,7 @@ const NavBar = () => {
     alert("Hello")
   }
   return (
-    <nav className="navbar navbar-expand-lg navbar-light">
+    <nav className="navbar navbar-expand-lg navbar-light bg-dark navbar-fixed-top">
       <a className="navbar-brand text-light" href="#Home">
         DevBharat
       </a>
