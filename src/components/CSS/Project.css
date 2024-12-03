@@ -1,0 +1,21 @@
+.projectheading{
+    text-align: center;
+    color: white;
+    color: white;
+    font-weight: 600;
+    font-size:3em;
+}
+
+.projecthead{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+
+
+@media (max-width: 768px){
+    .uppercard{
+        margin-bottom: 5px;
+    }
+}

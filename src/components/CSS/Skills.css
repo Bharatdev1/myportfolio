@@ -1,0 +1,62 @@
+.containerhead{
+ display: flex;
+ justify-content: space-around;
+ align-items: center;
+ flex-direction: column;   
+}
+
+.SkillsHead{
+    color: white;
+    font-weight: 600;
+    font-size:3em;
+   /* background-color; */
+    width: fit-content;
+    height: fit-content;
+    padding: 4px;
+}
+
+.skillIcon{
+    width: fit-content;
+}
+
+.skillcard{
+    background-color: #1c1f2b;
+    margin: 10px;
+    border-radius: 10px;
+    position: relative;
+}
+@property --angle {
+    syntax: "<angle>";/* means it has to be a number 4-5 deg  */
+    initial-value: 0deg;
+    inherits: false;
+}
+/* @property rule is a fancy way for creating custom property in css */
+.skillcard::after ,.skillcard::before{
+    /* --angle:0deg; */
+    content: "";
+    position: absolute;
+    width: 103%;
+    height: 103%;
+    background-image: conic-gradient(from var(--angle),#dd4545,#00ff99,#006aff,#ff0095);
+    top:50%;
+    left:50%;
+    translate: -50% -50%;
+    z-index: -1;
+    padding: 5px;
+    animation: 3s spin linear infinite;
+    border-radius: 14px;
+}
+
+.skillcard::before{
+    filter: blur(1.5rem);
+    opacity: 0.5;
+}
+
+@keyframes spin{
+    from{
+        --angle:0deg
+    }
+    to{
+        --angle:360deg
+    }
+}

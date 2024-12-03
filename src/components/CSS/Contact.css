@@ -1,0 +1,20 @@
+.contacthead{
+    display: flex;
+    justify-content:space-around;
+}
+.contactchild1{
+    color: white;
+}
+.contactchild1 > a{
+    padding: 20px;
+}
+
+.contactchild2{
+    color:white
+  }
+
+  @media (max-width: 768px){
+    .contacthead{
+        flex-direction: column;
+    }
+  }
