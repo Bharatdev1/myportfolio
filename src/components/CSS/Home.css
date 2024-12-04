@@ -13,7 +13,7 @@
 .myavtar{
     /* filter: drop-shadow(5px 5px 10px lightgrey); */
     width: 20vw;
-    background-image: url('https://github.com/Bharatdev1/myportfolio/blob/main/public/images/splash.png?raw=true');
+    background-image: url(https://github.com/Bharatdev1/myportfolio/blob/main/public/images/splash.png?raw=true);
     background-size: cover;
 }
 

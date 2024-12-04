@@ -13,9 +13,12 @@
 }
 
 
-
+/* font-size:3em; */
 @media (max-width: 768px){
     .uppercard{
         margin-bottom: 5px;
     }
+.projectheading{
+    font-size:2em;
+}
 }

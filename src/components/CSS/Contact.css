@@ -1,6 +1,7 @@
 .contacthead{
     display: flex;
     justify-content:space-around;
+    
 }
 .contactchild1{
     color: white;
@@ -13,8 +14,26 @@
     color:white
   }
 
+  .contacdheading{
+    color: white;
+    text-align: center;
+    font-weight: 600;
+    font-size:3em;
+  }
+
   @media (max-width: 768px){
     .contacthead{
         flex-direction: column;
     }
+    .contactchild1{
+        display: grid;
+        grid-template-columns: 32% 32% 32%;
+        margin: 0;
+        padding: 2px;
+    }
+    .contacdheading{
+    font-size:2em;
+        
+    }
   }
+  /*  */
