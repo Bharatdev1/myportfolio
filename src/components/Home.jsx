@@ -6,7 +6,7 @@ const Home = () => {
   useEffect(() => {
     // Ensure typewriter logic runs after component mounts
     const title = document.getElementById('headAnimation');
-    let myTitle = "UI/UX Designer";
+    let myTitle = "Frontend Developer";
     let index = 1;
     
 // Web Developer
@@ -31,7 +31,6 @@ const Home = () => {
   return (
   <div className="container">
   <div className="headerActar">
-
     <div className='headerchile1' >
         <h2 data-aos="fade-right" className=''>Welcome to my Portfolio</h2>
         <h1  data-aos="fade-left">Hi! I'm Bharat Vasnani <span id='headAnimation'></span>|</h1>
