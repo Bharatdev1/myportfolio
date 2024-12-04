@@ -15,7 +15,12 @@ import Contact from './components/Contact';
 import AOS from 'aos';
 import 'aos/dist/aos.css';
 
-AOS.init();
+AOS.init({
+  offset: 120, // offset (in px) from the original trigger point
+  delay: 0, // values from 0 to 3000, with step 50ms
+  duration: 1000, // values from 0 to 3000, with step 50ms
+});
+
 function App() { 
     // Section refs for scrolling
     const sectionRefs = {
@@ -35,15 +40,13 @@ function App() {
         }
     }, [location]);
 
+
     return (
         <div className='header'>
-            <nav className="navbar navbar-expand-lg navbar-light bg-dark sticky-top ">
-                <Link to="#home" className="navbar-brand text-light" style={{ cursor: "grab" }}>
+            <nav className="navbar navbar-expand-lg navbar-light bg-dark sticky-top" >
+                <Link to="#home" className="navbar-brand text-light" style={{ cursor: "pointer" }}>
                     DevBharat
                 </Link>
-                <a className="resume navbar-brand text-light" target='blank' href="./Bharat_Vasnani_Resume.pdf">
-                    Resume
-                </a>
                 <button
                     className="navbar-toggler"
                     type="button"
@@ -57,18 +60,21 @@ function App() {
                 </button>
                 <div className="collapse navbar-collapse" id="navbarNavAltMarkup">
                     <div className="navbar-nav ms-auto">
-                        <Link to="#home" className="nav-item nav-link text-light" style={{ cursor: "grab" }}>
+                        <Link to="#home" className="nav-item nav-link text-light" style={{ cursor: "pointer" }}>
                             Home
                         </Link>
-                        <Link to="#skills" className="nav-item nav-link text-light" style={{ cursor: "grab" }}>
+                        <Link to="#skills" className="nav-item nav-link text-light" style={{ cursor: "pointer" }}>
                             Skills
                         </Link>
-                        <Link to="#project" className="nav-item nav-link text-light" style={{ cursor: "grab" }}>
+                        <Link to="#project" className="nav-item nav-link text-light" style={{ cursor: "pointer" }}>
                             Projects
                         </Link>
-                        <Link to="#contact" className="nav-item nav-link text-light" style={{ cursor: "grab" }}>
+                        <Link to="#contact" className="nav-item nav-link text-light" style={{ cursor: "pointer" }}>
                             Contact
                         </Link>
+                        <a className="resume navbar-brand text-light" target='blank' href="./Bharat_Vasnani_Resume.pdf">
+                    Download Resume
+                </a>
                     </div>
                 </div>
             </nav>
@@ -99,3 +105,4 @@ const WrappedApp = () => (
 );
 
 export default WrappedApp;
+// Open source contrubtion
