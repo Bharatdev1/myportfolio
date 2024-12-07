@@ -1,87 +1,69 @@
-import React from 'react';
-import { Card, CardContent, CardMedia, Typography, Chip, Box, IconButton } from '@mui/material';
-import { motion } from 'framer-motion';
-import { GitHub, Launch } from '@mui/icons-material';
+export const SKILLS_DATA = [
+  {
+    title: 'Frontend Development',
+    skills: ['ReactJS', 'JavaScript (DOM manipulation, Object Model)', 'Redux', 'HTML5', 'CSS3', 'Bootstrap', 'Material UI', 'Tailwind CSS']
+  },
+  {
+    title: 'Front-end Workflows',
+    skills: ['Hooks', 'Context API', 'Component Lifecycle', 'Responsive Design', 'Version Control (Git)', 'Webpack', 'Babel', 'NPM']
+  },
+  {
+    title: 'Soft Skills',
+    skills: ['Collaboration', 'Problem-Solving', 'Adaptability', 'Teamwork']
+  }
+];
 
-const ProjectCard = ({ title, description, image, technologies }) => {
-  return (
-    <motion.div
-      whileHover={{ y: -10 }}
-      transition={{ type: "spring", stiffness: 300 }}
-    >
-      <Card 
-        sx={{ 
-          height: '100%', 
-          background: 'rgba(255,255,255,0.03)',
-          borderRadius: 4,
-          border: '1px solid rgba(255,255,255,0.1)',
-          transition: 'all 0.3s ease',
-          '&:hover': {
-            background: 'rgba(255,255,255,0.05)',
-            borderColor: 'primary.main'
-          }
-        }}
-      >
-        <CardMedia
-          component="img"
-          height="250"
-          image={image}
-          alt={title}
-          sx={{
-            objectFit: 'cover',
-            transition: 'transform 0.3s ease',
-            '&:hover': {
-              transform: 'scale(1.05)'
-            }
-          }}
-        />
-        <CardContent sx={{ p: 3 }}>
-          <Typography 
-            variant="h5" 
-            gutterBottom
-            sx={{ 
-              fontWeight: 600,
-              color: 'grey.100'
-            }}
-          >
-            {title}
-          </Typography>
-          <Typography 
-            variant="body2" 
-            sx={{ 
-              mb: 3,
-              color: 'grey.400',
-              lineHeight: 1.7
-            }}
-          >
-            {description}
-          </Typography>
-          <Box sx={{ display: 'flex', flexWrap: 'wrap', gap: 1, mb: 2 }}>
-            {technologies.map((tech, index) => (
-              <Chip
-                key={index}
-                label={tech}
-                size="small"
-                sx={{
-                  bgcolor: 'rgba(100, 108, 255, 0.1)',
-                  color: 'primary.main',
-                  borderRadius: '16px'
-                }}
-              />
-            ))}
-          </Box>
-          <Box sx={{ display: 'flex', gap: 1 }}>
-            <IconButton size="small" sx={{ color: 'grey.400' }}>
-              <GitHub />
-            </IconButton>
-            <IconButton size="small" sx={{ color: 'grey.400' }}>
-              <Launch />
-            </IconButton>
-          </Box>
-        </CardContent>
-      </Card>
-    </motion.div>
-  );
-};
+export const EXPERIENCE_DATA = [
+  {
+    role: 'Freelance Frontend Developer',
+    company: 'Self-employed',
+    duration: 'August 2023 – Present',
+    description: 'Developed and maintained scalable web applications using ReactJS, built reusable components, and optimized performance.'
+  },
+  {
+    role: 'Frontend Developer (UI Design)',
+    company: 'Kriplus Hypermedia',
+    duration: 'August 2022 – August 2023',
+    description: 'Redesigned company website UI, developed reusable ReactJS components, and improved application efficiency.'
+  },
+  {
+    role: 'Intern',
+    company: 'Grras Solutions Pvt. Ltd',
+    duration: 'May 2021 – November 2021',
+    description: 'Built scalable applications using MERN stack, focused on clean code and performance optimization.'
+  }
+];
 
-export default ProjectCard;
+export const PROJECTS_DATA = [
+  {
+    title: 'Wine Louise Santi Product Information Website',
+    description: 'Designed and developed a responsive website showcasing products with a visually appealing and functional UI using ReactJS and CSS3.',
+    image: '/project1.jpg',
+    technologies: ['ReactJS', 'CSS3', 'Responsive Design'],
+    link:"https://www.louisesannti.com",
+    githublink:"https://github.com/Bharatdev1"
+  },
+  {
+    title: 'Ngx-Stories Frontend Design',
+    description: 'Created and implemented responsive designs using modern front-end practices, focusing on seamless user experience and clean UI.',
+    image: '/project2.jpg',
+    technologies: ['HTML', 'CSS', 'JavaScript'],
+    link:"https://ngx-stories.vercel.app/",
+    githublink:"https://github.com/Bharatdev1"
+  }
+];
+
+export const CONTACT_DATA = [
+  {
+    title: 'Email',
+    value: 'bharatvasnani007@gmail.com'
+  },
+  {
+    title: 'Phone',
+    value: '+91 9079670528'
+  },
+  {
+    title: 'Location',
+    value: 'Jaipur, Rajasthan, INDIA'
+  }
+];
