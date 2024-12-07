@@ -72,10 +72,10 @@ const ProjectCard = ({ title, description, image, technologies,link,githublink }
           </Box>
           <Box sx={{ display: 'flex', gap: 1 }}>
             <IconButton size="small" sx={{ color: 'grey.400' }}>
-              <a target='blank' href={githublink}><GitHub /></a>
+              <a target='blank' href={githublink}><GitHub sx={{ color: 'white' }}/></a>
             </IconButton>
             <IconButton size="small" sx={{ color: 'grey.400' }}>
-             <a target='blank' href={link}> <Launch /></a>
+             <a target='blank' href={link}> <Launch sx={{ color: 'white' }}/></a>
             </IconButton>
           </Box>
         </CardContent>
