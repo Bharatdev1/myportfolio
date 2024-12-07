@@ -90,13 +90,13 @@ const Hero = () => {
               </Stack>
               <Stack direction="row" spacing={2} sx={{ mt: 4 }}>
                 <IconButton color="primary" size="large">
-                  <a href="https://github.com/Bharatdev1"><GitHub /></a> 
+                  <a href="https://github.com/Bharatdev1"><GitHub sx={{ color: 'white' }}/></a> 
                 </IconButton>
                <IconButton color="primary" size="large">
-               <a href="https://www.linkedin.com/in/bharat-vasnani-4497a6112/"> <LinkedIn /> </a>
+               <a href="https://www.linkedin.com/in/bharat-vasnani-4497a6112/"> <LinkedIn sx={{ color: 'white' }} /> </a>
                 </IconButton>
                <IconButton color="primary" size="large">
-               <a href="https://github.com/Bharatdev1/myportfolio">  <Code /></a>
+               <a href="https://github.com/Bharatdev1/myportfolio">  <Code sx={{ color: 'white' }} /></a>
                 </IconButton>
               </Stack>
             </motion.div>
