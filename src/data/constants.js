@@ -38,7 +38,7 @@ export const PROJECTS_DATA = [
   {
     title: 'Wine Louise Santi Product Information Website',
     description: 'Designed and developed a responsive website showcasing products with a visually appealing and functional UI using ReactJS and CSS3.',
-    image: '/project1.jpg',
+    image: '/project2.png',
     technologies: ['ReactJS', 'CSS3', 'Responsive Design'],
     link:"https://www.louisesannti.com",
     githublink:"https://github.com/Bharatdev1"
@@ -46,7 +46,7 @@ export const PROJECTS_DATA = [
   {
     title: 'Ngx-Stories Frontend Design',
     description: 'Created and implemented responsive designs using modern front-end practices, focusing on seamless user experience and clean UI.',
-    image: '/project2.jpg',
+    image: '/project1.png',
     technologies: ['HTML', 'CSS', 'JavaScript'],
     link:"https://ngx-stories.vercel.app/",
     githublink:"https://github.com/Bharatdev1"
