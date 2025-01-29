@@ -8,6 +8,10 @@ export const SKILLS_DATA = [
     skills: ['Hooks', 'Context API', 'Component Lifecycle', 'Responsive Design', 'Version Control (Git)', 'Webpack', 'Babel', 'NPM']
   },
   {
+    title: 'BackEnd Development',
+    skills: ['Node.js', ' Express.js', 'RESTful APIs', 'MongoDB']
+  },
+  {
     title: 'Soft Skills',
     skills: ['Collaboration', 'Problem-Solving', 'Adaptability', 'Teamwork']
   }
