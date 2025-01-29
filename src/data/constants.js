@@ -19,10 +19,10 @@ export const SKILLS_DATA = [
 
 export const EXPERIENCE_DATA = [
   {
-    role: 'Freelance Frontend Developer',
+    role: 'Freelance  Full-Stack Developer',
     company: 'Self-employed',
     duration: 'August 2023 – Present',
-    description: 'Developed and maintained scalable web applications using ReactJS, built reusable components, and optimized performance.'
+    description: 'Designed, developed, and maintained scalable full-stack web applications using ReactJS, Node.js, and MongoDB, improving user experience and performance.'
   },
   {
     role: 'Frontend Developer (UI Design)',
