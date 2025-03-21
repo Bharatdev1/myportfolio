@@ -45,7 +45,7 @@ export const PROJECTS_DATA = [
     image: 'https://github.com/Bharatdev1/myportfolio/blob/main/public/project4.png?raw=true',
     technologies: ['React.js', 'Material UI', 'Bootstrap', 'Responsive Design','Redux'],
     link:"https://sarthis.vercel.app/",
-    githublink:"https://github.com/Bharatdev1/sarthis1"
+    githublink:"https://github.com/Bharatdev1/sarthis"
   },
   {
     title: 'White-Label Wine Website for IndigoCrescent',
