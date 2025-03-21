@@ -53,7 +53,7 @@ export const PROJECTS_DATA = [
     image: 'https://github.com/Bharatdev1/myportfolio/blob/main/public/project3.png?raw=true',
     technologies: ['React.js', 'Material UI', 'Bootstrap', 'Responsive Design'],
     link:"http://indigocrescent.es/",
-    githublink:"https://github.com/Bharatdev1"
+    githublink:"https://github.com/Bharatdev1/Indigo_Crescent"
   },
   {
     title: 'Wine Louise Santi Product Information Website',
