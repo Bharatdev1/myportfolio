@@ -42,7 +42,7 @@ export const PROJECTS_DATA = [
   {
     title: 'Developed an E-commerce Website for Sarthis Eyewear',
     description: 'Designed and developed a modern, user-friendly eyewear store with intuitive UI, responsive design, and efficient state management.',
-    image: 'https://github.com/Bharatdev1/myportfolio/blob/main/public/project3.png?raw=true',
+    image: 'https://github.com/Bharatdev1/myportfolio/blob/main/public/project4.png?raw=true',
     technologies: ['React.js', 'Material UI', 'Bootstrap', 'Responsive Design','Redux'],
     link:"https://sarthis.vercel.app/",
     githublink:"https://github.com/Bharatdev1/sarthis1"
