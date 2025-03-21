@@ -40,6 +40,14 @@ export const EXPERIENCE_DATA = [
 
 export const PROJECTS_DATA = [
   {
+    title: 'White-Label Wine Website for IndigoCrescent',
+    description: 'Built a responsive white-label wine website for IndigoCrescent with seamless UI.',
+    image: 'https://github.com/Bharatdev1/myportfolio/blob/main/public/project3.png?raw=true',
+    technologies: ['React.js', 'Material UI', 'Bootstrap', 'Responsive Design'],
+    link:"http://indigocrescent.es/",
+    githublink:"https://github.com/Bharatdev1"
+  },
+  {
     title: 'Wine Louise Santi Product Information Website',
     description: 'Designed and developed a responsive website showcasing products with a visually appealing and functional UI using ReactJS and CSS3.',
     image: '/project2.png',
