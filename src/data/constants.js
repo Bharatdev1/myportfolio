@@ -25,7 +25,7 @@ export const EXPERIENCE_DATA = [
     description: 'Designed, developed, and maintained scalable full-stack web applications using ReactJS, Node.js, and MongoDB, improving user experience and performance.'
   },
   {
-    role: 'Frontend Developer (UI Design)',
+    role: 'Frontend Developer',
     company: 'Kriplus Hypermedia',
     duration: 'August 2022 – August 2023',
     description: 'Redesigned company website UI, developed reusable ReactJS components, and improved application efficiency.'
